@@ -1,0 +1,10 @@
+﻿<div>
+    <h3>Random Passcode (passcode #@ViewBag.IndexCount)</h3>
+    <h2>@ViewBag.Passcode</h2>
+    <form asp-action="GeneratePasscode" asp-controller="Home" method="get">
+        <button>Generate</button>
+    </form>
+    <form asp-action="Reset" asp-controller="Home" method="get">
+        <button>Reset</button>
+    </form>
+</div>
